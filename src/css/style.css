@@ -70,15 +70,15 @@ header {
 }
 
 .menu a {
-  padding: 15px ;
+  padding: 15px;
   text-decoration: none;
   color: #452827;
-  justify-content: center;
+  display: flex;
   font-size: 1rem;
   font-weight: bold;
   transition: 0.4s;
   
-  }
+}
 
 .menu a:hover {
   color: rgb(159, 232, 239);
@@ -86,8 +86,10 @@ header {
 
 .menu ul {
   list-style: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
+
 }
 
 .menu li {
@@ -105,23 +107,19 @@ header {
 }
 
 .menu>ul>li {
-  
   float: left;
 }
 
 /*segundo nivel menu*/
 .menu li li {
   max-height: 0;
-  display: inline-block;
   transition: all 0.4s;
   overflow: hidden;
   width: auto;
- 
 }
 
-
 .menu li:hover>ul>li {
-  max-height: 100px;
+  max-height: 500px;
   overflow: visible;
 }
 
@@ -226,6 +224,6 @@ footer {
 }
 
 .footer .desarrollo img {
-  width: 15%;
+  width: 10%;
 
 }
