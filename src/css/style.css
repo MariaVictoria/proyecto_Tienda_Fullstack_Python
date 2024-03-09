@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box; /* Incluye el padding y el border en el tamaño total del elemento */
 }
 
 body,
@@ -81,7 +81,8 @@ header {
 }
 
 .menu a:hover {
-  color: rgb(58, 96, 99);
+  color: rgb(33, 15, 15);
+  background-color:  rgb(161, 172, 169);
 }
 
 .menu ul {
@@ -151,13 +152,13 @@ main {
 }
 
 .contenedor_ppal {
-  max-width: auto;
+  max-width: 100%;
   margin: auto;
 }
 
 /*-------- cards -------*/
 .contenedor_portada {
-  max-width: auto; 
+  max-width: 100%; 
   padding-inline: auto;
 }
 .contenedor_texto {
