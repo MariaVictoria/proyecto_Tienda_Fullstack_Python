@@ -2,23 +2,16 @@
 .contenedor_portada {
   width: 100%;
   height: 150px;
-  background-color: rgb(254, 248, 239);
+
 }
+
 .contenedor_texto {
   position: absolute;
-  width: 100%;
   margin: 5% 3%;
-  text-align: center;
 }
-.contenedor_texto h3 {
-  color: rgb(66, 43, 7);
-  font-size: 5rem;
-  font-weight: bold;
-  font-family: "Clicker Script", cursive;
-}
+
 .contenedor_sec {
   width: 100%;
-  background-color: rgb(254, 248, 239);
   padding: 40px;
 }
 .contenedor_tarjeta {
@@ -27,12 +20,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(254, 248, 239);
   padding: 15px 10px 15px 10px;
 }
 .tarjeta {
   width: 24em;
-  background-color: #fff;
+  background-color: #f6f3f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 1em;
   padding: 1em;
   border-radius: 0.5em;
@@ -71,14 +66,12 @@
 .art {
   text-align: center;
 }
-.precio {
-  text-align: right;
-}
+
 .textoTarjeta h3 {
   text-align: left;
   font-size: 1.5em;
 }
-/* ================ responsive ==============*/
+ /*================ responsive ==============
 @media screen and (max-width: 1300px) {
   .contenedor_texto h3 {
     font-size: 3.5rem;
@@ -106,4 +99,4 @@
   .contenedor_texto h3 {
     font-size: 2rem;
   }
-}
+}*/

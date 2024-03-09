@@ -163,7 +163,6 @@ main {
 }
 .contenedor_texto {
   left: 0;
-  
   text-align: center;  
   
 }
@@ -184,9 +183,14 @@ main {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 100%;
 
  }
 
+ .item p{
+  text-align: justify;
+  font-size: 1.5 rem;
+ }
 /* Footer */
 footer {
   display: block;
