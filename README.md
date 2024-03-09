@@ -1,1 +1,1 @@
-# proyecto_Tienda_Fullstack_Python
+# Proyecto  Tienda VickyGurumiS     Fullstack_Python
