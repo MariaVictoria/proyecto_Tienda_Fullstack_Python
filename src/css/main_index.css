@@ -1,0 +1,49 @@
+/* ============== cuerpo ========== */
+
+.contenedor_carrousel {
+  height: 50vh; /* Mantén la altura según tus necesidades */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 220px; /* Ajusta según la altura del encabezado */
+  overflow: hidden;
+  max-width: auto;
+}
+.contenedor_imagenes {
+  position: relative;
+  width: 150px;
+  height: 180px;
+  transform-style: preserve-3d;
+  animation: rotate 45s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.contenedor_imagenes span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+}
+.contenedor_imagenes span:hover img {
+  transform: translateY(-50px) scale(1.2);
+}
+.contenedor_imagenes img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 2s;
+}

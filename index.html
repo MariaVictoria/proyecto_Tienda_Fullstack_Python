@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="src/static/favicon/MV.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Monserrat', sans-serif;
+      text-align: center;
+      color: #d0af62;
+    }
+
+    body {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(0, 0, 0);
+      
+    }
+
+    img {
+      margin-top: 50px;
+      display:block;
+      max-width: auto;
+     
+    }
+
+    footer {
+      max-width:auto;
+      margin-top: 10%;
+      display: block;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer .logo-github {
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    .footer .logo-github img {
+      width: 60px;
+      color: #d0af62;
+      margin-bottom: 10px;
+    }
+
+    </style>
+
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div>
+      <a href="src/pages/home.html" class="btn btn-link d-none" id="boton-invisible"></a>
+      <script>
+        setTimeout(function () {
+          document.getElementById('boton-invisible').click();
+        }, 2000);
+      </script>
+      <a href="./src/pages/home.html" target="_blank">
+      <img src="src/static/logos_sin_fondo/CONESTRELLA-rpng.png" width="350" alt="logo">
+    </a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="logo-github">
+      <a href="https://github.com/MariaVictoria" target="_blank">
+        <img src="src/static/logos/github-mark/github-mark.png" alt="">
+      </a>
+      <p>&copy; 2024 MV. Diseño y Desarrollo</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+</body>
+
+</html>
