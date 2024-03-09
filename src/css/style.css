@@ -147,32 +147,34 @@ header {
 }
 
 /* Contenedor Principal */
-main {
-  margin-top: 150px;
-}
 
 .contenedor_ppal {
   max-width: 100%;
-  margin: auto;
+ 
 }
 
-/*-------- cards -------*/
 .contenedor_portada {
-  
-  padding-inline: auto;
+    padding-inline: auto;
 }
+
 .contenedor_texto {
   left: 0;
   text-align: center;  
+  margin-bottom: 15px;
   
 }
 
-/* items del cuerpo principal*/
 .contenedor_detalle {
   display: flex;
   justify-content: space-around;
   padding: 50px;
   
+}
+
+/*items del cuerpo principal*/
+.contenedor_sec {
+  padding: 70px;
+  width: 100%;
 }
 
 .item {
@@ -231,5 +233,8 @@ footer {
 
 .footer .desarrollo img {
   width: 10%;
+  float: right; /* Opción 1: utilizando float */
+  /* O bien */
+  margin-left: auto; /* Opción 2: utilizando margin */
 
 }
