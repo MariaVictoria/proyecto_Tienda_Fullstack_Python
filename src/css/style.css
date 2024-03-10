@@ -146,7 +146,7 @@ header {
   height: 180px;
 }
 
-/* Contenedor Principal */
+/*------------- Contenedor Principal */
 
 .contenedor_ppal {
   max-width: 100%;
@@ -171,7 +171,7 @@ header {
   
 }
 
-/*items del cuerpo principal*/
+/*----------items del cuerpo principal*/
 .contenedor_sec {
   padding: 70px;
   width: 100%;
@@ -179,6 +179,7 @@ header {
 
 .item {
   padding: 70px ;
+  text-align: center;
   margin: 15px 25px;
   background-color: #f6f3f0;
   border: 1px solid #ddd;
@@ -193,13 +194,13 @@ header {
   text-align: justify;
   font-size: 1.5 rem;
  }
-/* Footer */
+
+/* ----------- Footer ---------------*/
 footer {
   display: block;
   flex-direction: column;
   align-items: center;
   margin-top: auto;
-
 }
 
 .footer .logo-reservados {
