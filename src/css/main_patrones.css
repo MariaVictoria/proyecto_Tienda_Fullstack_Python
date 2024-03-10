@@ -33,26 +33,7 @@
   object-fit: cover;
   border: #784b4a thin solid;
 }
-#item_2:checked ~ .imagenes #selector_1,
-#item_1:checked ~ .imagenes #selector_3,
-#item_3:checked ~ .imagenes #selector_2 {
-  transform: translateX(-40%) scale(0.8);
-  opacity: 0.6;
-  z-index: 0;
-}
-#item_3:checked ~ .imagenes #selector_1,
-#item_1:checked ~ .imagenes #selector_2,
-#item_2:checked ~ .imagenes #selector_3 {
-  transform: translateX(40%) scale(0.8);
-  opacity: 0.6;
-  z-index: 0;
-}
-#item_1:checked ~ .imagenes #selector_1,
-#item_2:checked ~ .imagenes #selector_2,
-#item_3:checked ~ .imagenes #selector_3 {
-  transform: translateX(0) scale();
-  z-index: 1;
-}
+
 
 /* ============== cuerpo ========== */
 .contenedor_tarjeta {
@@ -61,13 +42,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
- 
-  padding: 15px 10px 15px 10px;
+   padding: 15px 10px 15px 10px;
 }
 .tarjeta {
   width: 24em;
-  background-color: #fff;
-  margin: 1em;
+    margin: 1em;
   padding: 1em;
   border-radius: 0.5em;
   border: #666 thin solid;
@@ -91,39 +70,6 @@
 }
 
 
-.art {
-  text-align: center;
-}
 .precio {
   text-align: right;
-}
-
-/* ================ responsive ==============*/
-@media screen and (max-width: 1300px) {
-  .contenedor_texto h3 {
-    font-size: 3.5rem;
-  }
-  .contenedor_portada {
-    height: auto;
-    padding: 0px 5px 100px 5px;
-  }
-}
-@media screen and (max-width: 950px) {
-  .contenedor_texto h3 {
-    font-size: 2.5rem;
-  }
-  .contenedor_portada {
-    padding: 0px 5px 50px 5px;
-  }
-  .contenedor_texto {
-    margin: 2% 1%;
-  }
-}
-@media screen and (max-width: 700px) {
-  .contenedor_portada {
-    padding: 0px 5px 20px 5px;
-  }
-  .contenedor_texto h3 {
-    font-size: 2rem;
-  }
 }
