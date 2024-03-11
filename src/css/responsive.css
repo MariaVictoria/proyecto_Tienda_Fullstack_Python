@@ -1,104 +1,19 @@
 /* ================ responsive ==============*/
-@media screen and (max-width: 1300px) {
-  
-    .contenedor_portada {
-      height: auto;
-      padding: 0px 5px 100px 5px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-  
-  .contenedor_portada {
-    height: auto;
-    padding: 50px 10px;
-  }
-  .contenedor_detalle {
-    height: 80%;
+@media screen and (max-width: 1730px) {
+  footer {
+    top: 1850px;
   }
 }
-
-@media screen and (max-width: 950px) {
-  .contenedor_carrousel {
-    height: 40vh;
-  }
-  .contenedor_imagenes {
-    width: 150px;
-    height: 175px;
-  }
-  .contenedor_imagenes span {
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(250px);
-  }
-
-  .contenedor_portada {
-    height: auto;
-    padding: 25px 5px 50px 5px; /* Corregido duplicado de padding */
-  }
-  .contenedor_texto {
-    margin: 2% 1%;
+@media screen and (max-width: 1295px) {
+  footer {
+    top: 2350px;
   }
 }
-
-@media screen and (max-width: 700px) {
-  .contenedor_detalle {
-    flex-direction: column; 
-    align-items: center; 
-  }
-  .contenedor_portada {
-    padding: 0px 5px 20px 5px;
-  }
-  .item {
-    width: 80%;
-    margin: 8px auto; 
-  }
-
-  .contenedor_imagenes {
-    width: 120px; 
-    height: 140px;
-  }
-  .contenedor_imagenes span {
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(180px); 
-  }
-
-  .menu {
-    flex-direction: column; /* Cambia la dirección del flexbox para apilar elementos verticalmente */
-    margin-top: 20px;
-}
-
-.menu-icon {
-    order: -1; /* Cambia el orden del ícono de menú para que aparezca arriba */
-    margin-bottom: 10px; /* Agrega espacio entre el ícono de menú y los elementos del menú */
-}
-
-.menu-items {
-    display: none; /* Oculta los elementos del menú por defecto */
-    width: 100%; 
-    padding: 0;
-}
-
-.menu-items li {
-    padding: 10px;
-    text-align: center; /* Centra el texto del elemento del menú */
-}
-
-.menu-items li a {
-    display: block; /* Hace que los enlaces ocupen todo el ancho del contenedor */
-}
-
-/* Mostrar el menú al hacer clic en el icono */
-#menu-toggle:checked + .menu-items {
-    display: block;
-}
-.img_logo {
-    width: 100px; /* Tamaño del logo para dispositivos pequeños */
-  }
-}
-/*-----------------*/
-/* ================ responsive fomr==============*/
 @media screen and (max-width: 1300px) {
   .contenedor_texto h3 {
     font-size: 3.5rem;
   }
+ 
   .contenedor_portada {
     height: auto;
     padding: 0px 1rem 10rem 1rem;
@@ -108,6 +23,54 @@
   }
 }
 @media screen and (max-width: 950px) {
+  .icon_menu {
+    display: block;
+    color: chocolate;
+    float: right;
+    padding: 3px;
+    font-size: 24px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    margin-top: 115px;
+    margin-right: 5%;
+  }
+  .icon_menu:hover {
+    background: rgb(240, 216, 171);
+    cursor: pointer;
+  }
+  .menu {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    text-align: right;
+    display: none;
+    background: #f5eadb;
+  }
+  .menu ul li {
+    width: 100%;
+  }
+  .menu ul li a {
+    width: 100%;
+    padding: 8px 10px;
+  }
+  .menu ul li ul {
+    position: relative;
+    width: 80%;
+    top: 0;
+    left: 10%;
+  }
+  .menu ul li ul li ul {
+    position: relative;
+    width: 60%;
+    left: 10%;
+  }
+  #check:checked ~ .menu {
+    display: block;
+  }
+  .spoty {
+    display: none;
+  }
   .contenedor_texto h3 {
     font-size: 2.5rem;
   }
@@ -118,7 +81,84 @@
     margin: 2% 1%;
   }
 }
+@media screen and (max-width: 863px) {
+  footer {
+    top: 3900px;
+  }
+}
 @media screen and (max-width: 700px) {
+  .img_logo {
+    width: 120px;
+    margin-left: 4%;
+    padding: 8px;
+  }
+  #nombre {
+    font-family: "Clicker Script", cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    position: fixed;
+    color: #784b4a;
+    margin-top: 30px;
+    margin-left: 8px;
+  }
+  header {
+    width: 100%;
+    height: 130px;
+    background: #f5eadb;
+    position: fixed;
+    z-index: 10;
+  }
+  .icon_menu {
+    display: block;
+    color: chocolate;
+    float: right;
+    padding: 3px;
+    font-size: 18px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    margin-top: 95px;
+  }
+  .icon_menu:hover {
+    background: rgb(240, 216, 171);
+    cursor: pointer;
+  }
+  .menu {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 12%;
+    text-align: right;
+    display: none;
+    background: #f5eadb;
+  }
+  .menu ul li {
+    width: 100%;
+  }
+  .menu ul li a {
+    font-size: 14px;
+    width: 100%;
+    padding: 8px 10px;
+  }
+  .menu ul li ul {
+    position: relative;
+    width: 80%;
+    top: 0;
+    left: 10%;
+  }
+  .menu ul li ul li ul {
+    position: relative;
+    width: 60%;
+    left: 10%;
+  }
+  #check:checked ~ .menu {
+    display: block;
+  }
+  main {
+    top: 125px;
+  }
+  .contenedor_texto h3 {
+    font-size: 2.5rem;
+  }
   .contenedor_texto h3 {
     font-size: 2rem;
   }
