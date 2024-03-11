@@ -2,7 +2,6 @@
 .contenedor_portada {
   margin-top: 12%;
   height: 300px;
- 
 }
 
 .contenedor_texto {
@@ -20,7 +19,7 @@
   border-radius: 20px;
   border-color: #784b4a;
   border-style: solid;
-  padding: 2% 5%;
+  padding: 50px;
 }
 .form-control {
  

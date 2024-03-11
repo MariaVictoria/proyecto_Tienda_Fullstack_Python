@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Incluye el padding y el border en el tamaño total del elemento */
+  box-sizing: border-box; 
 }
 
 body,

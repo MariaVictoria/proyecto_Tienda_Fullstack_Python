@@ -11,8 +11,8 @@
 }
 .contenedor_imagenes {
   position: relative;
-  width: 150px;
-  height: 180px;
+  width: 250px;
+  height: 290px;
   transform-style: preserve-3d;
   animation: rotate 45s linear infinite;
 }
