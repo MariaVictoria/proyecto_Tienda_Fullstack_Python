@@ -236,3 +236,88 @@ footer {
   width: 10%;
   float: right; 
 }
+
+/* ================ responsive ==============*/
+@media screen and (max-width: 1300px) {
+  .contenedor_texto h3 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .icon_menu {
+    display: block;
+    color: chocolate;
+    float: right;
+    padding: 3px;
+    font-size: 24px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    margin-top: 115px;
+    margin-right: 5%;
+  }
+  .icon_menu:hover {
+    background: rgb(240, 216, 171);
+    cursor: pointer;
+  }
+  .menu {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    text-align: right;
+    display: none;
+    background: #f5eadb;
+  }
+  .menu ul li {
+    width: 100%;
+  }
+  .menu ul li a {
+    width: 100%;
+    padding: 8px 10px;
+  }
+  .menu ul li ul {
+    position: relative;
+    width: 80%;
+    top: 0;
+    left: 10%;
+  }
+  .menu ul li ul li ul {
+    position: relative;
+    width: 60%;
+    left: 10%;
+  }
+  #check:checked ~ .menu {
+    display: block;
+  }
+  .spoty {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img_logo {
+    width: 120px;
+    margin-left: 4%;
+    margin-top: 15px;
+    padding: 8px;
+  }
+  #nombreE {
+    font-size: 2.5rem;
+    margin-top: 30px;
+    margin-left: 8px;
+  }
+  header {
+    height: 130px;
+  }
+  .icon_menu {
+    margin-top: 95px;
+    font-size: 18px;
+  }
+  .menu {
+    top: 12%;
+  }
+  main {
+    top: 125px;
+  }
+}
