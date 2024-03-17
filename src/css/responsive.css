@@ -62,6 +62,9 @@
         height: auto;
         padding: 25px 5px;
     }
+    .contenedor_portada {
+        padding: 0px 5px 20px 5px;
+      }
 
     .contenedor_texto {
         border: solid rgb(98, 126, 75);
@@ -75,11 +78,8 @@
         border: solid orange;
         padding: 80px;
     }
-}
-@media screen and (max-width: 700px) {
-    .contenedor_portada {
-      padding: 0px 5px 20px 5px;
-    }
+
+  
 }
 
 /*-------------863----------------*/
@@ -207,7 +207,19 @@
           }
 }
 
-
+/* ================ 1300 ==============*/
+@media screen and (max-width: 1300px) {
+    .contenedor_texto h3 {
+      font-size: 3.5rem;
+    }
+    .contenedor_portada {
+      height: auto;
+      padding: 0px 1rem 10rem 1rem;
+    }
+    .contenedor_sec {
+      height: auto;
+    }
+  }
 /*-------------1730-----------------*/
 @media screen and (max-width: 1730px) {
     footer {
