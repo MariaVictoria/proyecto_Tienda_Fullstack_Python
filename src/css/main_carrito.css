@@ -166,25 +166,5 @@
   position: absolute;
   display: none;
 }
-footer {
-  top: 1400px;
-  width: 100%;
-  height: 75px;
-  background: linear-gradient(to right, rgb(239, 192, 159), rgb(138, 107, 84));
-}
-/* ================ responsive ==============*/
-@media screen and (max-width: 1730px) {
-  footer {
-    top: 1850px;
-  }
-}
-@media screen and (max-width: 1295px) {
-  footer {
-    top: 2350px;
-  }
-}
-@media screen and (max-width: 863px) {
-  footer {
-    top: 3900px;
-  }
-}
+
+

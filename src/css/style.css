@@ -67,10 +67,12 @@ header {
 
 /* Menús y submenús */
 .menu {
+  width: auto;
+  float: right;
   margin-top: auto;
   margin-left: auto;
   margin-right: 2%;
-  width: auto;
+  
 }
 
 .menu a {
@@ -239,148 +241,4 @@ footer {
 .footer .desarrollo img {
   width: 10%;
   float: right; 
-}
-
-/* ================ responsive =============*/
-/*-------------700-----------------*/
-@media screen and (max-width: 700px) {
-  header {
-    height: 150px;
-  }
-
-  .img_logo {
-    width: 120px;
-    margin-left: 4%;
-    margin-top: 15px;
-    padding: 8px;
-  }
-  #name {
-    font-size: 2rem;
-    margin-top: 30px;
-    margin-right: 50%;
-  }
- 
-  .icon_menu {
-    margin-top: 95px;
-    font-size: 18px;
-  }
-  .menu {
-    top: 12%;
-  }
-  main {
-    top: 125px;
-  }
- 
-  .contenedor_carrousel {
-    height: 40vh;
-  }
-  .contenedor_imagenes {
-    width: 150px;
-    height: 175px;
-  }
-  .contenedor_imagenes span {
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(250px);
-  }
-  .contenedor_portada {
-    height: auto;
-    padding: 25px 5px;
-  }
-  .contenedor_texto {
-    margin: 2% 1%;
-  }
-  .contenedor_detalle {
-    padding: 80px;
-  }
-}
-
-/*-------------950-----------------*/
-
-@media screen and (max-width: 950px) {
-
-  .icon_menu {
-    display: block;
-    color: rgb(24, 9, 107);
-    float: right;
-    padding: 3px;
-    font-size: 24px;
-    border: 1px solid #f1c227;
-    border-radius: 5px;
-    margin-top: 115px;
-    margin-right: 5%;
-  }
-  .icon_menu:hover {
-    background: rgb(39, 85, 18);
-    cursor: pointer;
-  }
-  .menu {
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 25%;
-    text-align: right;
-    display: none;
-    background: #df57ab;
-  }
-  .menu ul li {
-    width: 100%;
-  }
-  .menu ul li a {
-    width: 100%;
-    padding: 8px 10px;
-  }
-  .menu ul li ul {
-    position: relative;
-    width: 80%;
-    top: 0;
-    left: 10%;
-  }
-  .menu ul li ul li ul {
-    position: relative;
-    width: 60%;
-    left: 10%;
-  }
-  #check:checked ~ .menu {
-    display: block;
-  }
- 
-    .contenedor_carrousel {
-      height: 40vh;
-    }
-    .contenedor_imagenes {
-      width: 150px;
-      height: 175px;
-    }
-    .contenedor_imagenes span {
-      transform: rotateY(calc(var(--i) * 45deg)) translateZ(250px);
-    }
-   
-    .contenedor_portada {
-      height: auto;
-      padding: 25px 5px;
-    }
-    .contenedor_texto {
-      margin: 2% 1%;
-    }
-    .contenedor_texto h3 {
-      font-size: 2.5rem;
-    }
-    
-    }
-    
-
-
-/*-------------1300-----------------*/
-
-@media screen and (max-width: 1300px) {
-
-.contenedor_texto h3 {
-  font-size: 3.5rem;
-}
-.contenedor_portada {
-  height: auto;
-  padding: 50px 10px;
-}
-.contenedor_detalle {
-  height: 80%;
-}
 }

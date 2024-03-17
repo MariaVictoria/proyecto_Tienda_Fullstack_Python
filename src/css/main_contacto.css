@@ -1,14 +1,8 @@
 /* ============== cuerpo ========== */
 .contenedor_portada {
-  margin-top: 12%;
-  height: 300px;
-}
-
-.contenedor_texto {
-  position: absolute;
-  margin: 5% 3%;
-  text-align: center;
-}
+ 
+  margin-top: 15%;
+  }
 
 .contenedor_sec {
   background-color: rgb(200, 223, 218);

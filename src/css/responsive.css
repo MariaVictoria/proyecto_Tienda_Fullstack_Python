@@ -1,0 +1,216 @@
+/* ================ responsive =============*/
+/*-------------700-----------------*/
+@media screen and (max-width: 700px) {
+    header {
+        border: solid yellow;
+        height: 130px;
+    }
+
+    .img_logo {
+        border: solid brown;
+        width: 120px;
+        margin-left: 4%;
+        margin-top: 15px;
+        padding: 8px;
+    }
+
+    #name {
+        border: solid pink;
+        font-size: 2rem;
+        margin-top: 30px;
+        margin-right: 70%;
+    }
+
+    .icon_menu {
+        border: solid grey;
+        margin-top: 95px;
+        font-size: 18px;
+    }
+
+    .menu {
+        border: solid violet;
+        display: block;
+        top: 12%;
+    }
+
+    main {
+        border: solid red;
+        top: 125px;
+    }
+
+    .contenedor_carrousel {
+        border: solid rgb(51, 255, 0);
+        width: 97%;
+        height: 30vh;
+
+    }
+
+    .contenedor_imagenes {
+        border: solid rgb(113, 40, 182);
+        width: 90px;
+        height: 100px;
+    }
+
+    .contenedor_imagenes span {
+        border: solid rgb(226, 108, 108);
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(250px);
+    }
+
+    .contenedor_portada {
+        border: solid blue;
+        width: 97%;
+        height: auto;
+        padding: 25px 5px;
+    }
+
+    .contenedor_texto {
+        border: solid rgb(98, 126, 75);
+        margin: 2% 1%;
+    }
+    .contenedor_texto h3 {
+        font-size: 2rem;
+      }
+
+    .contenedor_detalle {
+        border: solid orange;
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .contenedor_portada {
+      padding: 0px 5px 20px 5px;
+    }
+}
+
+/*-------------863----------------*/
+@media screen and (max-width: 863px) {
+    footer {
+      top: 3900px;
+    }
+  }
+
+
+/*-------------950-----------------*/
+
+@media screen and (max-width: 950px) {
+
+    .icon_menu {
+        border: solid rgb(96, 96, 241);
+        display: block;
+        color: rgb(24, 9, 107);
+        float: right;
+        padding: 3px;
+        font-size: 24px;
+        border: 1px solid #f1c227;
+        border-radius: 5px;
+        margin-top: 115px;
+        margin-right: 5%;
+    }
+
+    .icon_menu:hover {
+        background: rgb(39, 85, 18);
+        cursor: pointer;
+    }
+
+    .menu {
+        border: solid #df57ab;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        text-align: right;
+        display: none;
+        background: #df57ab;
+    }
+
+    .menu ul li {
+        width: 100%;
+    }
+
+    .menu ul li a {
+        width: 100%;
+        padding: 8px 10px;
+    }
+
+    .menu ul li ul {
+        position: relative;
+        width: 80%;
+        top: 0;
+        left: 10%;
+    }
+
+    .menu ul li ul li ul {
+        position: relative;
+        width: 60%;
+        left: 10%;
+    }
+
+    #check:checked~.menu {
+        display: block;
+    }
+
+    .contenedor_carrousel {
+        height: 40vh;
+    }
+
+    .contenedor_imagenes {
+        width: 150px;
+        height: 175px;
+    }
+
+    .contenedor_imagenes span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(250px);
+    }
+
+    .contenedor_portada {
+        height: auto;
+        padding: 25px 5px;
+    }
+    .contenedor_portada {
+        padding: 0px 5px 50px 5px;
+      }
+    .contenedor_texto {
+        margin: 2% 1%;
+    }
+
+    .contenedor_texto h3 {
+        font-size: 2.5rem;
+    }
+
+}
+
+/*-------------1295-----------------*/
+
+@media screen and (max-width: 1295px) {
+
+    .contenedor_texto h3 {
+        font-size: 3.5rem;
+    }
+
+    .contenedor_portada {
+        height: auto;
+        padding: 50px 10px;
+        /*padding: 0px 1rem 10rem 1rem; 
+          padding: 0px 5px 100px 5px;
+      }*/
+    }
+
+    .contenedor_detalle {
+        height: 80%;
+    }
+    .contenedor_sec {
+        height: auto;
+      }
+     
+    footer {
+            top: 2350px;
+          }
+}
+
+
+/*-------------1730-----------------*/
+@media screen and (max-width: 1730px) {
+    footer {
+      top: 1850px;
+    }
+  }
