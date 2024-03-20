@@ -26,7 +26,7 @@ h2{
 h3{
   font-weight: bold;
   font-family: "Clicker Script", cursive;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 h4 {
   color: #452827;
@@ -197,10 +197,16 @@ header {
  }
 
  .item p{
-  text-align: justify;
+  text-align: center;
   font-size: 1.5 rem;
  }
 
+ .marcoTarjeta .img_chica {
+  width: 95px;
+}
+.marcoTarjeta  .pic {
+  width: 15em;
+}
 /* ----------- Footer ---------------*/
 footer {
   display: block;
